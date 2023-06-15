@@ -1,0 +1,81 @@
+
+
+body{
+    background: url('../images/background.png') ;
+    background-size: cover;
+    
+}
+
+#outer{
+    position: relative;/*investigar*/
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #fff;/*color fondo*/
+    border: initial;
+    overflow: overlay;/*investigar*/
+
+}
+#header{
+    position: relative;
+    background: url('../images/banner.jpg') no-repeat;
+    height: 250px;
+    width: 880px;
+    color: green;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: overlay;
+}
+
+#contenido{
+   
+    float: left;
+    width: 270px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-right: 0;
+
+}
+#info{
+   position: relative;
+   padding: 5px;
+    float: left;
+   
+
+}
+
+#ArticuloPrincipal{
+    display: inline;
+    float: right;
+    width: 600px;
+    height: auto;
+    margin: 0 20px 0 0 ;
+    padding-left: 0;
+
+}
+ #fancy{
+    position: relative;
+   padding: 3px 8px;
+    float: left;
+    height: 200px;;
+    
+}
+
+#outer p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+   font-stretch: normal;
+
+}
+
+h3{
+    color: #488000;
+}
+
+h1{
+    color: #488000;
+    margin-left: 20px;
+}
